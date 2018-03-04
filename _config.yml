@@ -1,0 +1,13 @@
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "index"
+#
+site-text-direction: "lt-ie10"
+#
+brand: "e-Smartz"
+website-type: "MegaFreight"
+og-type: "IT Consulting, Development and Support"
+social-image: ""
+#

@@ -1,0 +1,17 @@
+<div class="innerPageRedLine"></div>
+
+{% for items in page.text-block %}
+<div class="{{ items.block-container-class }}">
+    <div class="{{ items.block-text-class }}">
+        <h1 class="{% if items.block-h1-class %}{{ items.block-h1-class }}{% endif %}">{{ items.block-text-h1 }}</h1>
+        <p>{{ items.block-text-1 }}</p>
+        <p>{{ items.block-text-2 }}</p>
+        <p>{{ items.block-text-3 }}</p>
+    </div>
+    {% if items.block-image-class %}
+    <div class="{{ items.block-image-class }}">
+        <p></p>
+        <img src="{{ items.block-image_path }}">
+    </div>
+    {% endif %}
+</div>{% endfor %}

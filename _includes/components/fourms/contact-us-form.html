@@ -1,0 +1,92 @@
+<div id="contactUs" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+
+    <form method="POST" action="_webarchive/auth/login.html" accept-charset="UTF-8"><input name="_token" type="hidden" value="VOBBPGwFl5rdnx00LvmzAyvhOivzmM4ceMvqoNKp">
+
+        <div class="row">
+            <div class="large-12 columns text-center">
+                <h3>Megafreight Enquiries</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-6 columns">
+                <label>Name<sup class="red">*</sup></label>
+                <input name="name" type="text">
+            </div>
+            <div class="large-6 columns">
+                <label>Company<sup class="red">*</sup></label>
+                <input name="company" type="text">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-6 columns">
+                <label>Email<sup class="red">*</sup></label>
+                <input name="email" type="text">
+            </div>
+            <div class="large-6 columns">
+                <label>Contact Number<sup class="red">*</sup></label>
+                <input name="contact_number" type="text">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+                <label>Select Branch<sup class="red">*</sup></label>
+                <select name="region"><option value="" selected="selected">- Please Select -</option><option value="Johannesburg">Johannesburg</option><option value="Cape Town">Cape Town</option><option value="Durban">Durban</option><option value="Port Elizabeth">Port Elizabeth</option></select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns clearfix">
+                <label>Required Services<sup class="red">*</sup></label>
+
+                <div class="checkWrap">
+                    <input id="sAirFreight" name="services[]" type="checkbox" value="Air Freight">
+                    <label for="sAirFreight">Air Freight</label>
+                </div>
+
+                <div class="checkWrap">
+                    <input id="sSeaFreight" name="services[]" type="checkbox" value="Sea freight">
+                    <label for="sSeaFreight">Sea freight</label>
+                </div>
+
+                <div class="checkWrap">
+                    <input id="sCustomsBrokerage" name="services[]" type="checkbox" value="Customs Brokerage">
+                    <label for="sCustomsBrokerage">Customs Brokerage</label>
+                </div>
+
+                <div class="checkWrap">
+                    <input id="sWarehousing" name="services[]" type="checkbox" value="Warehousing">
+                    <label for="sWarehousing">Warehousing</label>
+                </div>
+
+                <div class="checkWrap">
+                    <input id="sSupplyChainSolutions" name="services[]" type="checkbox" value="Supply Chain Solutions">
+                    <label for="sSupplyChainSolutions">Supply Chain Solutions</label>
+                </div>
+
+                <div class="checkWrap">
+                    <input id="sOther" name="services[]" type="checkbox" value="General / Other">
+                    <label for="sOther">General / Other</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns clearfix">
+                <label>Comments</label>
+
+                <textarea name="comments"></textarea>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 text-center columns">
+                <button type="submit" class="button">Submit</button>
+            </div>
+        </div>
+
+    </form>
+
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
