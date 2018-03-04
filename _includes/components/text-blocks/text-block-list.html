@@ -2,14 +2,19 @@
 
 <div class="row">
     <div class="large-12 columns">
-        <h1>Memberships</h1>
-        <p>Megafreight has affiliations and memberships to the following organisations:</p>
+
+        {% for items in page.list %}
+        <h1 class="editable">{{ items.list-heading }}</h1>
+        <p class="editable">{{ items.list-text }}</p>
 
         <ul>
-            <li>FIATA</li>
-            <li>IATA</li>
-            <li>SAAFF</li>
-            <li>Johannesburg Chamber of Commerce</li>
+            <li class="editable">{{ items.list-content-1 }}</li>
+            <li class="editable">{{ items.list-content-2 }}</li>
+            <li class="editable">{{ items.list-content-3 }}</li>
+            <li class="editable">{{ items.list-content-4 }}</li>
         </ul>
+        {% endfor %}
     </div>
 </div>
+
+
