@@ -3,6 +3,8 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "index"
+  _editor:
+    default_path: /about/
 #
 site-text-direction: "lt-ie10"
 #
