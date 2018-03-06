@@ -5,7 +5,7 @@ defaults:
       layout: "index"
 #
 _editor:
-  default_path: "index"
+  default_path: /
 #
 site-text-direction: "lt-ie10"
 #
